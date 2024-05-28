@@ -129,7 +129,7 @@ body {
 }
 
 section.bg-primary {
-    background-color: #007bff;
+    background-color: #f1f1f1;
     color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -141,7 +141,7 @@ h2 {
 }
 
 p.text-primary {
-    color: #d1ecf1;
+    color: #ffffff;
 }
 
 .contenido {
@@ -167,3 +167,88 @@ p.text-primary {
     margin-top: 10px;
     color: #f8f9fa;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.contact-section {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.contact-info h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.contact-info a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.map-container {
+    flex: 1;
+    min-width: 300px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .map-container {
+        margin-top: 20px;
+    }
+}
+
